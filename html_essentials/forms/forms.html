@@ -8,26 +8,54 @@
   <body>
     <h1>Forms Demo</h1>
 
-    <form action="/tacos">
+    <form action="success.html" method="GET">
       <p>
         <label for="username">Enter username:</label>
-        <input id="username" type="text" placeholder="username" />
+        <input
+          id="username"
+          type="text"
+          placeholder="username"
+          name="username"
+        />
       </p>
 
       <p>
         <label for="password">Enter a Password: </label>
-        <input id="password" type="password" placeholder="password" />
+        <input
+          id="password"
+          type="password"
+          placeholder="password"
+          name="password"
+        />
       </p>
 
-      <p><label for="color">Enter a color : </label>
-      <input id="color" type="color" /></p>
+      <p>
+        <label for="color">Enter a color : </label>
+        <input id="color" type="color" />
+      </p>
       <p>
         <label for="number">Enter a Number:</label>
         <input id="number" type="number" placeholder="number" />
       </p>
-    
-      
-      
+      <button type="button">Regular Button (won't submit)</button>
+      <button>Submit !!!</button>
     </form>
+    <hr />
+
+    <h2>Reddit Search</h2>
+    <form action="https://reddit.com/search" target="_blank" method="GET">
+      <label for="search">Search Here :</label>
+      <input id="search" type="text" placeholder="Search Reddit" name="q" />
+      <button>Search</button>
+    </form>
+
+    <hr />
+    <h2>Google Search</h2>
+    <form action="https://www.google.com/search" target="_blank" method="GET">
+<label for="google"></label>
+    <input id="google" type="text" placeholder="Search Google" name="q" />
+    <button>Google Search</button>
+    </form>
+    
   </body>
 </html>

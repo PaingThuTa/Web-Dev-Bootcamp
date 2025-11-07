@@ -52,10 +52,38 @@
     <hr />
     <h2>Google Search</h2>
     <form action="https://www.google.com/search" target="_blank" method="GET">
-<label for="google"></label>
-    <input id="google" type="text" placeholder="Search Google" name="q" />
-    <button>Google Search</button>
+      <label for="google"></label>
+      <input id="google" type="text" placeholder="Search Google" name="q" />
+      <button>Google Search</button>
     </form>
-    
+
+    <h2>More Inputs!!!</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_to" id="agree" />
+      <label for="agree">I agree to everything</label>
+      <p>
+        <label for="">XS:</label>
+        <input type="radio" name="size" id="xs" value="xs" />
+        <label for="">S:</label>
+        <input type="radio" name="size" id="s" value="s" />
+        <label for="">M:</label>
+        <input type="radio" name="size" id="m" value="m" />
+        <button>Submit</button>
+      </p>
+
+      <p>
+        <label for="">Please select your ticket type</label>
+        <select name="ticket" id="ticket">
+          <option value="">PLEASE CHOOSE YOUR TICKET TYPE</option>
+          <option value="free">Free</option>
+          <option value="premium">Premium</option>
+          <option value="gold">Gold</option>
+        </select>
+        <button>Submit</button>
+      </p>
+      <h2>Range</h2>
+      <label for="cheese"></label>
+      <input type="range" id="cheese" name="cheese" min="0" max="100" />
+    </form>
   </body>
 </html>

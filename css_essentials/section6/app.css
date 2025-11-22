@@ -1,5 +1,11 @@
 h1 {
-    text-align:justify;
-    font-weight: normal;
-    text-decoration: wavy underline rgb(50, 61, 80);
+  text-align: center;
+  font-weight: normal;
+  text-decoration: wavy underline rgb(50, 61, 80);
+  letter-spacing: 15px;
+  font-size: 100px;
+  font-family: Futura;
+
+
 }
+
